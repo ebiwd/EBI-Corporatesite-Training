@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ebiwd/EBI-Corporatesite-Training # Path to your Github repository
   branch: master # Branch to update
-#  site_domain: site-name.netlify.com # Your Netlify site address if different from host
+  site_domain: designer-hare-16270.netlify.com # Your Netlify site address if different from host
 media_folder: "static/images" # Media files will be stored in the repo under images/uploads
 collections:
   - name: "modules" # Used in routes, e.g. /admin/collections/blog

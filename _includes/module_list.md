@@ -11,19 +11,16 @@ and filtering to just those with the front matter of:
 
 <p class="small">This document gives a summary of the half-day modules made up of descriptions, audience / prerequisite knowledge, resources covered and expected learning outcomes.</p>
 
-<p><a >Toggle Panel</a></p>
-
-
 {% for node in module_list %}
   {% if type == node.type %}
+    <div class="module-wrapper" data-category="{{node.category}}" data-new="{{node.new}}">
     {% assign counter = counter | plus: 1 %}
     <span class="label">{{node.category}}</span>
-
     {% if "yes" == node.new %}
       <span class="tag">NEW</span>
     {% endif %}
     <h4 data-toggle="panel-{{counter}} teaser-{{counter}}">{{node.title}}</h4>
-    <div class="" id="teaser-{{counter}}" data-toggler data-animate="hinge-in-from-top hide">
+    <div class="" data-toggle="panel-{{counter}} teaser-{{counter}}" id="teaser-{{counter}}" data-toggler data-animate="hinge-in-from-top hide">
       {{node.content | strip_html | truncatewords: 30}}
     </div>
     <div class="row hidden" id="panel-{{counter}}" data-toggler data-animate="hinge-in-from-top">
@@ -38,6 +35,7 @@ and filtering to just those with the front matter of:
       </div>
     </div>
     <hr/>
+    </div>
 
     {% if node.category == 'Cross-domain tools and resources' %}
     to do: group by category..
@@ -55,13 +53,13 @@ and filtering to just those with the front matter of:
 {% for node in module_list %}
   {% if type == node.type %}
     {% assign counter = counter | plus: 1 %}
+    <div class="module-wrapper" data-category="{{node.category}}" data-new="{{node.new}}">
     <span class="label">{{node.category}}</span>
-
     {% if "yes" == node.new %}
       <span class="tag">NEW</span>
     {% endif %}
     <h4 data-toggle="panel-{{counter}} teaser-{{counter}}">{{node.title}}</h4>
-    <div class="" id="teaser-{{counter}}" data-toggler data-animate="hinge-in-from-top hide">
+    <div class="" data-toggle="panel-{{counter}} teaser-{{counter}}" id="teaser-{{counter}}" data-toggler data-animate="hinge-in-from-top hide">
       {{node.content | strip_html | truncatewords: 30}}
     </div>
     <div class="row hidden" id="panel-{{counter}}" data-toggler data-animate="hinge-in-from-top">
@@ -76,6 +74,7 @@ and filtering to just those with the front matter of:
       </div>
     </div>
     <hr/>
+    </div>
 
     {% if node.category == 'Cross-domain tools and resources' %}
     to do: group by category..

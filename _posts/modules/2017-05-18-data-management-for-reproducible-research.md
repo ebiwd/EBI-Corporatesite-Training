@@ -3,7 +3,7 @@ layout: post
 group: module
 title: Data management for reproducible research
 category: Cross-domain
-date: null
+date: 2017-05-18T11:21:59.580Z
 type: half day
 new: 'yes'
 resources: '-'

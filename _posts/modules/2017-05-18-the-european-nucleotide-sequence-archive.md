@@ -3,7 +3,7 @@ layout: post
 group: module
 title: The European Nucleotide Sequence Archive
 category: DNA & RNA
-date: null
+date: 2017-05-18T11:21:59.580Z
 type: half day
 new: 'no'
 resources: >-

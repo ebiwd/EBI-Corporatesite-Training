@@ -2,8 +2,8 @@
 name: EMBL-EBI Training
 group: EMBL-EBI Training
 email: noreply@ebi.ac.uk
-domain: //ebiwd.github.io
-baseurl: /EBI-Corporatesite-Training
+domain: http://designer-hare-16270.netlify.com
+baseurl: /
 permalink: pretty
 
 # Add custom CSS / JS here

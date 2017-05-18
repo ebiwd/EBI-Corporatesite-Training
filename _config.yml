@@ -3,7 +3,7 @@ name: EMBL-EBI Training
 group: EMBL-EBI Training
 email: noreply@ebi.ac.uk
 domain: http://designer-hare-16270.netlify.com
-baseurl: /
+baseurl: 
 permalink: pretty
 
 # Add custom CSS / JS here

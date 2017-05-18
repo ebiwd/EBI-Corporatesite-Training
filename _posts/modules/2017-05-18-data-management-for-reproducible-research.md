@@ -6,17 +6,6 @@ category: Cross-domain
 date: null
 type: half day
 new: 'yes'
-description: >-
-  **The module provides an overview of common pitfalls result in poor
-  reproducibility, and introduces some easy-to-implement data management best
-  practices to avoid such pitfalls. Examples will be drawn from the trainers’
-  own experiences in managing large volumes of metadata in public repositories,
-  as well as from projects that have successfully implemented the best
-  practices.**
-
-
-  The module is suitable for researchers at any stage of their career, as the
-  materials and delivery will be tailored to the audience.
 resources: '-'
 outcomes: >-
   **Participants should be able to:**
@@ -37,3 +26,12 @@ outcomes: >-
 related: '-'
 ---
 
+**The module provides an overview of common pitfalls result in poor
+reproducibility, and introduces some easy-to-implement data management best
+practices to avoid such pitfalls. Examples will be drawn from the trainers’
+own experiences in managing large volumes of metadata in public repositories,
+as well as from projects that have successfully implemented the best
+practices.**
+
+The module is suitable for researchers at any stage of their career, as the
+materials and delivery will be tailored to the audience.

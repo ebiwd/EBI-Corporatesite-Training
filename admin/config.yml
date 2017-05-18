@@ -19,7 +19,7 @@ collections:
       - {label: "Type", name: "type", widget: "string", default: "half day"}
       #- {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "New ('yes/no')", name: "new", widget: "string", default: "no"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "body", widget: "markdown"}
       - {label: "Resources", name: "resources", widget: "markdown"}
       - {label: "Learning outcomes", name: "outcomes", widget: "markdown"}
       - {label: "Related resources/courses", name: "related", widget: "markdown", default: "-"}

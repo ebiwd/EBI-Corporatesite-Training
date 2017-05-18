@@ -8,8 +8,7 @@ type: half day
 new: 'yes'
 resources: '-'
 outcomes: >-
-  **Participants should be able to:**
-
+  Participants should be able to:
 
   * identify common causes of poor reproducibility
 

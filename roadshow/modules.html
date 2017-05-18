@@ -10,30 +10,35 @@ order: 3
 </article>
 
 <h3>Modules</h3>
-<p>We offer a range of half-day and full-day modules, which can be combined to suit different audiences. Take a look at our modules, or browse upcoming and past workshops (below) for inspiration.</p>
+<p>We offer a range of half-day and full-day modules, which can be combined to suit different audiences.<br/>
+   Take a look at our modules, or browse upcoming and past workshops (below) for inspiration.</p>
 
-<div class="row">
+<div id="module-listings" class="row">
 
-  <div class="columns medium-6">
-    <h3>Off-site half-day modules</h3>
-
-    This document gives a summary of the half-day modules made up of descriptions, audience / prerequisite knowledge, resources covered and expected learning outcomes.
-
-    A list of the available modules is found in the table below. These modules could be combined when building up a course
-
-    UTWG members are encouraged to add any new/potential modules.
-
-    {% include module_list.html %}
+  <div class="columns medium-2">
+    <div class=" sidebar" data-sticky-container>
+      <div class="sticky" data-sticky data-anchor="module-listings"  data-options="marginTop:4;">
+        <h4>Module types</h4>
+        <p>Some filters/nav...</p>
+        <div class="">
+          <ul class="menu vertical">
+            <li class=""><a href="#">Half day</a></li>
+            <li class=""><a href="#">Full day</a></li>
+            <br/>
+            <li class=""><a href="#">Cross - domain</a></li>
+            <li class=""><a href="#">DNA & RNA</a></li>
+            <li class=""><a href="#">DNA & RNA</a></li>
+            <li class=""><a href="#">DNA & RNA</a></li>
+            <li class=""><a href="#">DNA & RNA</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="columns medium-6">
-
-    <h3>Off-site full day modules</h3>
-
-    This document gives a summary of the full-day modules made up of module descriptions, audience / prerequisite knowledge, resources covered and expected learning outcomes.
-
-    A list of available modules is found in the table below.
-    UTWG members are encouraged to add any new/potential modules to the table. 
+  <div class="columns medium-10">
+    {% include module_list.md %}
   </div>
+
 
 </div>

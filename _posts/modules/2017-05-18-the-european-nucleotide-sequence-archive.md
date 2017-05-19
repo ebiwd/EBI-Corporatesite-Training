@@ -6,14 +6,16 @@ category: DNA & RNA
 date: 2017-05-18T11:21:59.580Z
 type: half day
 new: 'no'
-resources: >-
-  [European Nucleotide Archive](http://www.ebi.ac.uk/ena)
+resources: '- [European Nucleotide Archive](http://www.ebi.ac.uk/ena)'
 outcomes: >-
   Participants should be able to:
 
-  * submit all types of sequence data
+
+  * submit all types of sequence data 
+
   * submit supplementary interpreted data such as variant calls, alignment
   files, annotation tables
+
   * browse the ENA database in detail, learning about its structure and the type
   of data it contains
 related: '-'
